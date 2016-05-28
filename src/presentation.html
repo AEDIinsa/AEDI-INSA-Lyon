@@ -12,9 +12,9 @@
 </head>
 <body>
 <header>
-    <ul id="slide-out" class="side-nav fixed">
-        <li class="none-hover container">
-            <img src="ressources/logo/logo-aedi.png"  class="brand-logo center-it margin-it container"/>
+    <ul id="slide-out" class="side-nav">
+        <li class="none-hover ">
+            <img  src="ressources/logo/logo-aedi.png"  class="brand-logo center-it margin-it container"/>
             <!--SVG VERSION
             <a id="logo-container" href="#" class="brand-logo center margin-it">
                 <object id="front-page-logo" type="image/svg+xml" class="width-80" data="res/Pegase-logo.svg">Logo</object>
@@ -23,7 +23,7 @@
         </li>
         <hr class="blue-grey">
         <li class="waves-effect waves-teal full-width"><a href="index.html" class="bold">Accueil</a></li>
-        <li class="waves-effect waves-teal full-width active"><a href="presentation.html" class="bold">Présentation</a></li>
+        <li class="waves-effect waves-teal full-width"><a href="presentation.html" class="bold">L'Association</a></li>
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
                 <li>
@@ -54,82 +54,140 @@
         </li>
         <li class="waves-effect waves-teal full-width"><a href="contact.html" class="bold">Contact</a></li>
     </ul>
+    
+    <ul class="side-nav hide-on-med-and-down fixed">
+      <li class="none-hover ">
+            <img  src="ressources/logo/logo-aedi.png"  class="brand-logo center-it margin-it container"/>
+            <!--SVG VERSION
+            <a id="logo-container" href="#" class="brand-logo center margin-it">
+                <object id="front-page-logo" type="image/svg+xml" class="width-80" data="res/Pegase-logo.svg">Logo</object>
+            </a>
+            -->
+        </li>
+        <hr class="blue-grey">
+        <li class="waves-effect waves-teal full-width"><a href="index.html" class="bold">Accueil</a></li>
+        <li class="waves-effect waves-teal full-width"><a href="presentation.html" class="bold">L'Association</a></li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="collapsible-header bold waves-effect waves-teal">Étudiants</a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li ><a href="evenements.html" class="light-on-nav">Présentation événements</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="collapsible-header bold waves-effect waves-teal">Entreprise</a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li ><a href="rencontresIF.html" class="light-on-nav">Rencontres IF</a></li>
+                            <li ><a href="entretiens.html" class="light-on-nav">Simulations d'entretiens</a></li>
+                            <li ><a href="conferences.html" class="light-on-nav">Conférences</a></li>
+                            <li ><a href="parrain.html" class="light-on-nav">Devenir parrain de promotion</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="waves-effect waves-teal full-width"><a href="contact.html" class="bold">Contact</a></li>
+      </ul>
 </header>
 <main class="full-height-with-padding">
     <div class="row blue darken-1" id="index-banner">
-        <div class="container">
-            <div class="col s2 m2 l0">
+        <div class="container valign-wrapper">
+            <div class="col s1">
                 <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only white-text"><i class="material-icons menu-size">menu</i></a>
             </div>
-            <div class="col s10 m10 l12">
-                <h2 class="white-text center-on-small-only font-weight-lower">Présentation</h2>
+            <div class="col s8">
+                <h2 class="white-text center-on-small-only font-weight-lower hide-on-med-and-down">L'Association</h2>
+            </div>
+            <div class="col s3">
+                <img src="ressources/logo/logo-aedis.png" style="width:50px;height:50px;" class="center-it margin-it hide-on-large-only">
             </div>
         </div>
     </div>
     <ul class="collapsible popout" data-collapsible="accordion">
         <li>
-            <div class="collapsible-header active"><i class="material-icons">info_outline</i>Présentation succinte</div>
-            <div class="collapsible-body"><p>L'AEDI, l'Association des Etudiants du Département Informatique, est une figure incontournable de la vie du Département et de la faune associative de l'INSA de Lyon. Depuis 30 ans, celle-ci accompagne les étudiants en Informatique à travers leur parcours, prodiguant de multiples services et organisant des évènements variés.
-
-                Comme toute association Loi 1901, l'AEDI n'est pas à but lucratif. L'inscription est gratuite pour tous les étudiants IF, l'association vivant grâce aux actions qu'elle mène, ainsi qu'aux multiples partenariats tissés, notamment avec le Département et les parrains de promotion.
-
-                Chaque année, une équipe d'étudiants volontaires est élue pour reprendre sa tête, apportant ainsi de nouvelles pierres à l'édifice.
+            <div class="collapsible-header active"><i class="material-icons">info_outline</i>Présentation</div>
+            <div class="collapsible-body">
+				<p class="justify-text">
+					L'Association des Etudiants du Département Informatique occupe une position centrale dans la vie des élèves-ingénieurs. Elle accompagne leurs 3 ultimes années de formation
+					à travers l'organisation de nombreux évènements qui rythment l'année : intégration, soirées, simulations d'entretiens, forum de recrutement ... Elle est présente pour tous les
+					moments, des plus sérieux aux plus festifs !<br/>
+					Tous les étudiants du département sont automatiquement et gratuitement membres adhérents de l'association et peuvent profiter des différents services qu'elle est en mesure
+					de leur proposer grace aux actions menées en partenariat avec les entreprises, et notemment les parrains des promotions. L'AEDI est une association à but non lucratif,
+					l'ensemble de ses bénéfices servent à l'organisation d'évènements et de services pour les étudiants ainsi qu'au fonctionnement de l'association.<br/>
+					Chaque année, une équipe d'étudiants volontaires est élue pour reprendre sa tête et contribuer à son développement.
+				</p>
             </div>
         </li>
         <li>
             <div class="collapsible-header"><i class="material-icons">done</i>Notre mission</div>
-            <div class="collapsible-body"><p>L'AEDI a pour rôle de renforcer la cohésion entre les étudiants du Département Informatique, les aider dans leur cursus, et établir des contacts privilégiés avec les entreprises.
-
-                Pour cela, l'AEDI profite aujourd'hui d'un riche réseau construit au cours des ans, regroupant anciens élèves investis, entreprises clés du monde informatique, et enseignants motivés. Ces ressources, mises à disposition à travers de nombreux évènements fédérateurs, comme les Rencontres IF ou les conférences, offrent des opportunités en or aux étudiants de découvrir les acteurs de l'Informatique, et leur futur employeur. Réciproquement, cela permet aux entreprises de renforcer leur présence et découvrir des profils intéressants.
-
-                S'il est primordial pour les élèves de profiter de ces occasions et de se projeter dans le futur, l'AEDI a aussi conscience de l'importance, parfois, de simplement profiter du présent, de ces années étudiantes qui passent bien trop vite. Dans cette optique sont régulierement organisés des évènements récréatifs. Intégration des nouveaux venus, sorties en ville, goûters, activités sportives, ... Toutes les occasions sont bonnes pour renforcer les liens au sein du Département, mais aussi avec l'exterieur, grâce aux bonnes relations développées avec d'autres associations étudiantes lyonnaises.
-
-                L'AEDI s'est donc donnée comme vocation d'être un acteur clé du Département, en aidant les étudiants dans tous les aspects de leurs etudes.
+            <div class="collapsible-body">
+				<p class="justify-text">
+					L'AEDI a un double rôle. Elle a pour but de renforcer la cohésion entre les étudiants du département et de les accompagner dans leur cursus.
+					Elle a également pour mission de favoriser les échanges entre les étudiants et les entreprises.<br/> 
+					Au fil de l'année, de nombreuses entreprises du secteur viennent donner des conférences
+					à destination des étudiants afin de leur faire découvrir les métiers et les technologies innovantes du monde de l'informatique.<br/>
+					L'association met également en contact les étudiants et les entreprises à l'occasion des Rencontres IF, le forum de recrutement du département,
+					où les entreprises peuvent nouer des liens solides avec leurs futurs collaborateurs.<br/>
+					Même si il est primordial pour les élèves de se projeter dans le futur, la mission de l'AEDI est aussi de leur faire profiter du présent et leurs années étudiantes !<br/>
+					L'AEDI s'est donc donnée comme vocation d'être un acteur clé du Département, en aidant les étudiants dans tous les facettes de leurs études.
             </p></div>
         </li>
         <li>
             <div class="collapsible-header"><i class="material-icons">favorite_border</i>Nos valeurs</div>
-            <div class="collapsible-body"><p> L'AEDI a fait le vœu de croire profondément dans le potentiel des étudiants du Département Informatique. C'est pourquoi nous nous efforçons d'apporter le terreau, les opportunités, destinés à faire valoir ces talents. La diversité des profils au sein des promotions est également une caractéristique que nous chérissons et encourageons, afin de favoriser une atmosphère d'échanges et de camaraderie plutôt que de compétition.
-
-                Enfin, pur produit de l'esprit associatif de l'INSA-Lyon, l'AEDI a à cœur de faire prospérer celui-ci, en encourageant les initiatives étudiantes et les partenariats inter- et extra-campus.
-            </p></div>
+            <div class="collapsible-body">
+				<p class="justify-text">
+					L'AEDI a fait le vœu de croire profondément dans le potentiel des étudiants du Département Informatique. 
+					Nous chérissons et encourageons la diversité de profils au sein de nos étudiants et nous mettons un point d'honneur à favoriser une atmosphère d'échange 
+					et de camaraderie plutôt que de compétition.<br/>
+					Nous encourageons les initiatives associatives et les projets d'innovations personnels.
+				</p></div>
         </li>
         <li>
             <div class="collapsible-header"><i class="material-icons">perm_identity</i>L'équipe</div>
             <div class="collapsible-body"><p>
                 <div class="row">
-                    <div class="col l8 m8 s12">
+                    <div class="col l7 m7 s12">
                         <img class="materialboxed" width="100%" data-caption="Bureau de l'AEDI"
                              src="ressources/staff/buro.jpg"/>
                     </div>
 
-                    <div class="col l4 m4 s12">
-                <p><b>Le bureau</b> <br/> <br/>
-                    À la tête de l'association, le Bureau coordonne les différentes équipes.
-                    <br/> <br/>
-                    Théo THIBAULT : Vice-Président <br/>
-                    Antoine PAYAN : Trésorier <br/>
-                    Lou HAMMEL : Secrétaire Générale <br/>
-                    Hugo DAVID-BOYET : Président <br/>
-                </p>
-            </div>
+                    <div class="col l5 m5 s12">
+						<h4>Le Bureau</h4>
+						<p class="weight-300">
+							<i>À la tête de l'association, le Bureau coordonne les différentes équipes.</i>
+							<br/><br/>
+							<b>Théo THIBAULT</b> - Vice-Président <br/>
+							<b>Antoine PAYAN</b> - Trésorier <br/>
+							<b>Lou HAMMEL</b> - Secrétaire Générale <br/>
+							<b>Hugo DAVID-BOYET</b> - Président <br/>
+						</p>
+					</div>
             </div>
             <div class="row">
-                <div class="col l8 m8 s12">
+                <div class="col l7 m7 s12">
                     <img class="materialboxed" width="100%" data-caption="Équipe des relations entreprise de l'AEDI"
                          src="ressources/staff/entreprise.jpg"/>
                 </div>
-
-                <div class="col l4 m4 s12">
-                    <p><b>L'équipe entreprise</b> <br/> <br/>
-                        Chargée des relations Entreprises, l'équipe organise notamment les Rencontres IF.
+                <div class="col 15 m5 s12">
+                    <h4>Équipe Entreprise</h4>
+					<p>
+                        <i>Chargée des relations Entreprises, l'équipe organise les conférences, les Rencontres IF et la journée de l'innovation, en partenariat avec les entreprises.</i>
                         <br/><br/>
-                        Christopher APARICIO<br/>
-                        Olivier VICENTE<br/>
-                        Selma NEMMAOUI<br/>
-                        Ruxandra POMANA<br/>
-                        François CHASTEL : Responsable<br/>
-                        Jacques FOLLEAS<br/>
+                        <b>Christopher APARICIO</b><br/>
+                        <b>Olivier VICENTE</b><br/>
+                        <b>Selma NEMMAOUI</b><br/>
+                        <b>Ruxandra POMANA</b><br/>
+                        <b>François CHASTEL</b> - Responsable<br/>
+                        <b>Jacques FOLLEAS</b><br/>
                     </p>
                 </div>
             </div>
