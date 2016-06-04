@@ -12,9 +12,9 @@
 </head>
 <body>
 <header>
-    <ul id="slide-out" class="side-nav fixed">
-        <li class="none-hover container">
-            <img src="ressources/logo/logo-aedi.png"  class="brand-logo center-it margin-it container"/>
+    <ul id="slide-out" class="side-nav">
+        <li class="none-hover ">
+            <img  src="ressources/logo/logo-aedi.png"  class="brand-logo center-it margin-it container"/>
             <!--SVG VERSION
             <a id="logo-container" href="#" class="brand-logo center margin-it">
                 <object id="front-page-logo" type="image/svg+xml" class="width-80" data="res/Pegase-logo.svg">Logo</object>
@@ -30,7 +30,51 @@
                     <a class="collapsible-header bold waves-effect waves-teal">Étudiants</a>
                     <div class="collapsible-body">
                         <ul>
-                            <li ><a href="evenements.html" class="light-on-nav">Présentation événements</a></li>
+                            <li ><a href="evenements_etudiants.html" class="light-on-nav">Agenda</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="collapsible-header bold waves-effect waves-teal">Entreprise</a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li ><a href="rencontresIF.html" class="light-on-nav active white-text blue accent-1">Rencontres IF</a></li>
+                            <li ><a href="entretiens.html" class="light-on-nav">Simulations d'entretiens</a></li>
+                            <li ><a href="conferences.html" class="light-on-nav">Conférences</a></li>
+                            <li ><a href="parrain.html" class="light-on-nav">Devenir parrain de promotion</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="waves-effect waves-teal full-width"><a href="contact.html" class="bold">Contact</a></li>
+    </ul>
+    
+    <ul class="side-nav hide-on-med-and-down fixed">
+      <li class="none-hover ">
+            <img  src="ressources/logo/logo-aedi.png"  class="brand-logo center-it margin-it container"/>
+            <!--SVG VERSION
+            <a id="logo-container" href="#" class="brand-logo center margin-it">
+                <object id="front-page-logo" type="image/svg+xml" class="width-80" data="res/Pegase-logo.svg">Logo</object>
+            </a>
+            -->
+        </li>
+        <hr class="blue-grey">
+        <li class="waves-effect waves-teal full-width"><a href="index.html" class="bold">Accueil</a></li>
+        <li class="waves-effect waves-teal full-width"><a href="presentation.html" class="bold">L'Association</a></li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="collapsible-header bold waves-effect waves-teal">Étudiants</a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li ><a href="evenements_etudiants.html" class="light-on-nav">Agenda</a></li>
+                            <li ><a href="services.html" class="light-on-nav">Services</a></li>
                         </ul>
                     </div>
                 </li>
@@ -53,20 +97,23 @@
             </ul>
         </li>
         <li class="waves-effect waves-teal full-width"><a href="contact.html" class="bold">Contact</a></li>
-    </ul>
+      </ul>
 </header>
 
 
 
 
 <main class="full-height-with-padding">
-    <div class="row blue darken-1 no-margin" id="index-banner">
-        <div class="container">
-            <div class="col s2 m2 l0">
+    <div class="row blue darken-1" id="index-banner">
+        <div class="container valign-wrapper">
+            <div class="col s1">
                 <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only white-text"><i class="material-icons menu-size">menu</i></a>
             </div>
-            <div class="col s10 m10 l12">
-                <h2 class="white-text center-on-small-only font-weight-lower">Les Rencontres IF</h2>
+            <div class="col s8">
+                <h2 class="white-text center-on-small-only font-weight-lower hide-on-med-and-down">Les Rencontres IF</h2>
+            </div>
+            <div class="col s3">
+                <img src="ressources/logo/logo-aedis.png" style="width:50px;height:50px;" class="center-it margin-it hide-on-large-only">
             </div>
         </div>
     </div>
